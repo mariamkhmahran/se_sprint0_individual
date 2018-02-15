@@ -47,3 +47,10 @@ k) Merge the branch ReadMe into Master:
 
 	$ git checkout master
 	$ git merge ReadMe
+	
+
+l) Add & commit AllMyCommands.txt the file:
+	
+	$ git add AllMyCommands.txt
+	$ git commit -m "added AllMyCommands.txt file"
+	$ git push
