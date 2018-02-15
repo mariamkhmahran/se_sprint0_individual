@@ -1,0 +1,49 @@
+a) Initialize a Git repository :
+
+	$ git init
+	$ git remote add origin https://github.com/mariamkhmahran/se_sprint0_individual.git
+
+
+b) Add the three files from step 2 to the staging area:
+
+	$ git add section1.txt
+	$ git commit -m "added section 1.1 from book"
+	$ git git push --set-upstream origin master
+	$ git add section3.txt
+	$ git commit -m "added section 3.1 from book"
+	$ git git push
+	$ git add section5.txt
+	$ git commit -m "added section 5.1 from book"
+	$ git git push
+
+
+c) Delete the file that contains section 3.1 Git Branching - Branches in a Nutshell:
+
+	$ git rm section3.txt
+	$ git commit -m "removed section3.txt"
+	$ git push
+
+
+d) Roll back to restore the deleted file:
+
+	$ git checkout HEAD^ section3.txt
+	$ git commit -m "readded section3.txt"
+	$ git push
+
+
+h) Make a new branch called ReadMe:
+
+	$ git checkout -b ReadMe
+
+
+i) Add README.md to ReadMe branch:
+
+	$ git add README.md
+	$ git commit -m "added readMe file"
+	$ git push --set-upstream origin ReadMe
+
+
+k) Merge the branch ReadMe into Master:
+
+	$ git checkout master
+	$ git merge ReadMe
