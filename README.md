@@ -1,4 +1,4 @@
-**Sprint 0
+**Sprint 0**
 
 this repo contain section 1.1, section 3.1 and section 5.1 from the book.
 
